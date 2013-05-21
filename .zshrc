@@ -7,7 +7,6 @@ alias tmux="TERM=screen-256color-bce tmux"
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -37,6 +36,3 @@ ZSH_THEME="robbyrussell"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-
-# Customize to your needs...
-# export PATH=/Users/firstuser/.rvm/gems/ruby-1.9.3-p286/bin:/Users/firstuser/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/firstuser/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/firstuser/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/firstuser/.rvm/bin:/Users/firstuser/.rvm/bin
