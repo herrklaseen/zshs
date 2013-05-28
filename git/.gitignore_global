@@ -11,5 +11,6 @@
 #Ignoring ctags files
 tags
 
-#Ignoring rvmfiles
+#Ignoring ruby version files
+.ruby_version
 .rvmrc
