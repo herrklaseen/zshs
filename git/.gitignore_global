@@ -1,0 +1,15 @@
+# Ignoring certain POW config files
+.powrc
+.powenv
+
+#Ignoring OS X crap
+.DS_Store
+
+#Ignoring vim swapfiles
+.*.sw*
+
+#Ignoring ctags files
+tags
+
+#Ignoring rvmfiles
+.rvmrc
