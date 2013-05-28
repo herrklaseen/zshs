@@ -4,5 +4,7 @@ function git_current_branch() {
 
 alias ll='ls -al'
 alias gla='git log --pretty="format:%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset" --graph --all'
-alias reset_config='rake db:drop db:create db:migrate && mysql kviberg-config-development -uroot < db/export.sql'
+alias reset_config='bundle exec rake db:drop db:create db:migrate && mysql kviberg-config-development -uroot < db/export.sql'
 alias gpthis='git push origin HEAD:$(git_current_branch)'
+alias ee='bundle exec'
+alias ber='bundle exec rake'
