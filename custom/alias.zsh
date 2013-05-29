@@ -7,4 +7,6 @@ alias gla='git log --pretty="format:%C(yellow)%h%Cblue%d%Creset %s %C(white) %an
 alias reset_config='bundle exec rake db:drop db:create db:migrate && mysql kviberg-config-development -uroot < db/export.sql'
 alias gpthis='git push origin HEAD:$(git_current_branch)'
 alias ee='bundle exec'
+alias be='bundle exec'
+alias eer='bundle exec rake'
 alias ber='bundle exec rake'
