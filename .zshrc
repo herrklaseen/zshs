@@ -36,4 +36,6 @@ alias tmux="TERM=screen-256color-bce tmux"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+chpwd_functions+=(_update_ruby_version)
+_update_ruby_version
 unsetopt correct
