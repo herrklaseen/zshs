@@ -9,8 +9,6 @@
 # Created on:		June 19, 2012
 # Last modified on: May 21, 2013
 
-
-
 if [ $UID -eq 0 ]; then NCOLOR="red"; else NCOLOR="green"; fi
 local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 
@@ -22,19 +20,13 @@ $FG[105]%(!.#.»)%{$reset_color%} '
 PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
 RPS1='${return_code}'
 
-
 # color vars
 eval my_gray='$FG[237]'
 eval my_orange='$FG[214]'
+eval my_blue='$FG[032]'
 
 # right prompt
-RPROMPT='$my_gray%n@%m%{$reset_color%}%'
-
-if which rvm-prompt &> /dev/null; then
-  RPROMPT='$my_gray%n@%m%{$reset_color%}%#%{$fg[red]%}$(~/.rvm/bin/rvm-prompt)%{$reset_color%}'
-else
-  RPROMPT='$my_gray%n@%m%{$reset_color%}%'
-fi
+RPROMPT='$my_gray%n@%m%{$reset_color%}%{$my_blue%}${ruby_version}%{$reset_color%}'
 
 # git settings
 ZSH_THEME_GIT_PROMPT_PREFIX="$FG[075](branch:"
