@@ -36,3 +36,4 @@ alias tmux="TERM=screen-256color-bce tmux"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+unsetopt correct
