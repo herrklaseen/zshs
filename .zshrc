@@ -39,3 +39,6 @@ source $ZSH/oh-my-zsh.sh
 chpwd_functions+=(_update_ruby_version)
 _update_ruby_version
 unsetopt correctall
+
+# The 'z' shell script
+. ~/code/z/z.sh
