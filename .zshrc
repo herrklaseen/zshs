@@ -30,6 +30,10 @@ alias tmux="TERM=screen-256color-bce tmux"
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 # COMPLETION_WAITING_DOTS="true"
 
+# Sets correct locales for shell
+export LC_ALL=en_US.UTF-8
+export LANG=sv_SE.UTF-8
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
