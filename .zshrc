@@ -46,3 +46,6 @@ unsetopt correctall
 
 # The 'z' shell script
 . ~/code/z/z.sh
+
+# Enable vim CLI mode
+bindkey -v 
