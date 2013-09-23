@@ -49,3 +49,6 @@ unsetopt correctall
 
 # Enable vim CLI mode
 bindkey -v 
+
+# Enable reverse search in vim mode
+bindkey -M vicmd '^R' history-incremental-search-backward
