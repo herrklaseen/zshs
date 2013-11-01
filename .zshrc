@@ -51,4 +51,4 @@ unsetopt correctall
 bindkey -v 
 
 # Enable reverse search in vim mode
-bindkey -M vicmd '^R' history-incremental-search-backward
+bindkey -M viins '^R' history-incremental-search-backward
