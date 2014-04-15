@@ -1,0 +1,18 @@
+[user]
+  name = Henning Klasén
+  email = henning@hform.se
+[core]
+  excludesfile = /Users/henning/.gitignore_global
+
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+[init]
+	templatedir = ~/.git_template
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[push]
+	default = simple
