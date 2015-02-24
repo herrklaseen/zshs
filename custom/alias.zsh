@@ -10,3 +10,5 @@ alias ee='bundle exec'
 alias be='bundle exec'
 alias eer='bundle exec rake'
 alias ber='bundle exec rake'
+
+unalias gm
